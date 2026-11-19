@@ -26,3 +26,6 @@ class BankAccount:
 
     def get_balance(self):
         return self.balance
+
+    def return_balance_10yr(self):
+        return self.balance * 1.20

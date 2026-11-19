@@ -16,6 +16,7 @@ class BankAccount:
         return f"{self.account_number} has the balance {self.balance}"
 
     # first parameter in class methods MUST be self
+    # This is a comment. 
     def deposit(self, amount):
         self.balance += amount
 
